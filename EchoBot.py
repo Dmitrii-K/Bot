@@ -8,8 +8,8 @@ bot = telebot.TeleBot(config.token)
 
 @bot.message_handler(commands = ['start'])
 def welcome(message):
-	sti = open ('Sticker/bender.webp', 'rb')
-	bot.send_sticker(message.chat.id, sti)
+	# sti = open ('Sticker/bender.webp', 'rb')
+	# bot.send_sticker(message.chat.id, sti)
 
 	#keyboard
 	markup = types.ReplyKeyboardMarkup(resize_keyboard = True)

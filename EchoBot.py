@@ -4,7 +4,7 @@ import random
 
 from telebot import types
 
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot(config.token)
 
 @bot.message_handler(commands = ['start'])
 def welcome(message):

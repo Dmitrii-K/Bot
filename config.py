@@ -1,2 +1,3 @@
 import os
-token = os.environ.get('TOKEN')
+TOKEN = os.environ.get('TOKEN')
+# print(token)

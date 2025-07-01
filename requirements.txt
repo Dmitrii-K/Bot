@@ -1,1 +1,2 @@
-pyTelegramBotAPI==3.7.3
+csv_logger==1.3.0
+pyTelegramBotAPI==4.27.0
